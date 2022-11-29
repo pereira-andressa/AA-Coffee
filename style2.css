@@ -1,0 +1,142 @@
+* {
+  --orange: #FF8A00; 
+}
+
+body {
+  font-family: 'Kanit', sans-serif;
+}
+
+header {
+  background: orange;
+  display: flex;
+  height: 60px;
+  padding: 30px 20px 0 20px;
+  justify-content: space-between;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  flex-direction: column;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+
+section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  width: 100%;
+  padding-bottom: 16px;
+}
+
+.section {
+  display: none;
+}
+
+.foto_avaliacao {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+} 
+
+.nome_profissao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nome {
+  color: #FF8A00;
+  font-size: 30px;
+  margin: 30px 0 0 0;
+}
+
+.profissao {
+  color: #000000;
+  font-size: 15px;
+
+}
+
+.aval_cometario {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.comentario {
+  color: #000000;
+  font-size: 25px;
+}
+
+.arrasta_lado{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.button_left, .button_right {
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+  border: 2px solid var(--orange);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+aside {
+  align-items: center;
+  background-color: #FF8A00;
+  border-left: 2px solid #000000;
+  border-radius: 0 0 0 10px;
+  display: none;
+  flex-direction: column;
+  font-size: 25px;
+  font-weight: bold;
+  gap: 30px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 400px;
+}
+
+#iconclose {
+  position: absolute;
+  right: 32px;
+  top: 32px;
+}
+
+.menu_flutuante {
+  display: flex;
+}
+
+.menu_flutu {
+  color: #FFFFFF;
+}
