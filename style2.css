@@ -1,8 +1,10 @@
 * {
-  --orange: #FF8A00; 
+  --orange: #FF8A00;
+  scroll-behavior: smooth;
 }
 
 body {
+  overflow-x: hidden;
   font-family: 'Kanit', sans-serif;
 }
 
@@ -26,13 +28,20 @@ h2 {
   font-size: 26px;
 }
 
+.carrossel {
+  padding-left: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
 
 section {
   align-items: center;
   display: flex;
   flex-direction: column;
   padding-top: 50px;
-  width: 100%;
+  width: 100vw;
   padding-bottom: 16px;
 }
 
@@ -127,7 +136,7 @@ aside {
   width: 400px;
 }
 
-#iconclose {
+#iconClose {
   position: absolute;
   right: 32px;
   top: 32px;
